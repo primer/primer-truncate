@@ -1,0 +1,22 @@
+{
+  "name": "primer-truncate",
+  "version": "0.1.0",
+  "description": "GitHub Primer - Truncate",
+  "homepage": "https://github.com/styleguide",
+  "license": "MIT",
+  "repository": "https://github.com/primer/truncate.git",
+  "main": "truncate.scss",
+  "bugs": {
+    "url": "https://github.com/primer/truncate/issues"
+  },
+  "author": "GitHub, Inc.",
+  "scripts": {
+    "test": "scss-lint *.scss"
+  },
+  "keywords": [
+    "primer",
+    "css",
+    "github",
+    "primercss"
+  ]
+}
