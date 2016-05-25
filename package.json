@@ -1,22 +1,38 @@
 {
-  "name": "primer-truncate",
   "version": "0.1.0",
-  "description": "GitHub Primer - Truncate",
-  "homepage": "https://github.com/styleguide",
+  "name": "primer-truncate",
+  "description": "Shorten text with an ellipsis.",
+  "homepage": "http://primercss.io/",
+  "author": "GitHub, Inc.",
   "license": "MIT",
+  "style": "index.scss",
+  "files": [
+    "index.scss",
+    "lib"
+  ],
   "repository": "https://github.com/primer/truncate.git",
-  "main": "truncate.scss",
   "bugs": {
     "url": "https://github.com/primer/truncate/issues"
   },
-  "author": "GitHub, Inc.",
   "scripts": {
-    "test": "scss-lint *.scss"
+    "build": "npm run setup && npm run preprocess",
+    "lint": "scss-lint **/*.scss",
+    "preprocess": "node-sass index.scss --include-path node_modules | postcss -c .postcss.json -o build/build.css",
+    "setup": "npm install",
+    "test": "npm run lint"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "node-sass": "^3.7.0",
+    "postcss-cli": "^2.5.2"
   },
   "keywords": [
     "primer",
     "css",
     "github",
-    "primercss"
+    "primercss",
+    "truncate",
+    "ellipsis",
+    "text"
   ]
 }
