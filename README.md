@@ -7,10 +7,6 @@
 
 This repository is a module of the full [primer-css][primer] repository.
 
-## Documentation
-
-You can read more about truncate in the [docs][docs].
-
 ## Install
 
 This repository is distributed with [npm][npm]. After [installing npm][install-npm], you can install `primer-truncate` with this command.
@@ -37,18 +33,38 @@ For a compiled **css** version of this module, a npm script is included that wil
 $ npm run build
 ```
 
-## Related
+## Documentation
 
-* [Primer Documentation][docs]
-* [primer-css][primer]
-* [primer-support][primer-support]
+You can read more about other primer modules in the [full primer docs][docs].
+
+<!-- %docs
+title: Truncate
+-->
+
+### Truncate
+
+`.css-truncate` will shorten text with an ellipsis. The maximum width of the truncated text can be changed by overriding the max-width of the .css-truncate-target.
+
+```html
+<span class="branch-ref css-truncate css-truncate-target">
+  really-long-branch-name
+</span>
+```
+
+You can reveal the entire string on hover with the addition of `.expandable`.
+
+```html
+<span class="css-truncate expandable">
+  <span class="branch-ref css-truncate-target">this-is-a-really-long-branch-name</span>
+</span>
+```
+<!-- %enddocs -->
 
 ## License
 
-MIT &copy; [GitHub](https://github.com/)
+[MIT](./LICENSE) &copy; [GitHub](https://github.com/)
 
 [primer]: https://github.com/primer/primer
-[primer-support]: https://github.com/primer/primer-support
 [docs]: http://primercss.io/
 [npm]: https://www.npmjs.com/
 [install-npm]: https://docs.npmjs.com/getting-started/installing-node
