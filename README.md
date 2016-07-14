@@ -40,6 +40,7 @@ You can read more about other primer modules in the [full primer docs][docs].
 <!-- %docs
 title: Truncate
 homepage: https://github.com/primer/truncate
+status: Stable
 -->
 
 ### Truncate
