@@ -11,9 +11,9 @@
     "lib",
     "build"
   ],
-  "repository": "https://github.com/primer/truncate.git",
+  "repository": "https://github.com/primer/primer-truncate.git",
   "bugs": {
-    "url": "https://github.com/primer/truncate/issues"
+    "url": "https://github.com/primer/primer-truncate/issues"
   },
   "scripts": {
     "setup": "if [ ! -d \"node_modules\" ]; then npm install; fi",
