@@ -1,5 +1,8 @@
-# HEAD
+# v0.3.1
 
+ * bumping the version - Jon Rohan [github/github@4a72b25](https://github.com/github/github/commit/4a72b25)
+ * Pointing main js file to build - Jon Rohan [github/github@3575651](https://github.com/github/github/commit/3575651)
+ * don't change the versions yet - Jon Rohan [github/github@6bebcff](https://github.com/github/github/commit/6bebcff)
  * Add note about  so text is still accessible - Mu-An Chiou [github/github@3aad0d2](https://github.com/github/github/commit/3aad0d2)
 
 # v0.3.0
